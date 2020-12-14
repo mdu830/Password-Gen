@@ -1,0 +1,26 @@
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+    background-image: url(../images/doughnutz.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-family: fantasy;
+}
+
+h2 {
+    font-family: monospace;
+}
+
+.bgc {
+    background-color: gainsboro;
+}

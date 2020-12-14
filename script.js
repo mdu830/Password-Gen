@@ -11,7 +11,7 @@ button.addEventListener ("click", function() {
         pwLength = prompt("Choose a password length of at least 8 characters and no more than 128 characters:");
         
     
-        if(pwLength >= 8 && pwLength <= 128){
+        if(pwLength >= 8 && pwLength <= 128) {
             alert("Your password length will be " + pwLength + " characters.");
             
             return;
@@ -88,6 +88,5 @@ console.log(pwGen(pwLength));
 
 var result = document.getElementById("answer");
 result.innerHTML = (pwGen(pwLength));
-
 
 });
