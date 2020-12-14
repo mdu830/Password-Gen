@@ -21,8 +21,8 @@ button.addEventListener ("click", function() {
     }
     pwLength = parseInt(pwLength);
 
-var upperCase = confirm("Do you want to use UPPERCASE letters?");
-var lowerCase = confirm("Do you want to use lowercase letters?");
+var upperCase = confirm("Do you want to include UPPERCASE letters in your password?");
+var lowerCase = confirm("Do you want to include lowercase letters in your password?");
 var numberQ = confirm("Do you want to include numbers in your password?");
 var specialQ = confirm("Do you want to include $pec!al characters in your password?");
 
