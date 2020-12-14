@@ -27,30 +27,30 @@ var numberQ = confirm("Do you want to include numbers in your password?");
 var specialQ = confirm("Do you want to include $pec!al characters in your password?");
 
 if(upperCase) {
-    upTf = "will have uppercase letters, ";
+    upTf = "UPPERCASE letters, ";
 } else {
-    upTf = "will NOT have uppercase letters, ";
+    upTf = "No UPPERCASE letters, ";
 }
 
 if(lowerCase) {
     lowTf = "will have lowercase letters, ";
 } else {
-    lowTf = "will NOT have lowercase letters, ";
+    lowTf = "No lowercase letters, ";
 }
 
 if(numberQ) {
-    numTf = "will have numbers, ";
+    numTf = "will have Numbers, ";
 } else {
-    numTf = "will NOT have numbers, ";
+    numTf = "No numbers, ";
 }
 
 if(specialQ) {
-    specTf = "will have special characters. ";
+    specTf = " will have $pec!al characters. ";
 } else {
-    specTf = "will NOT have special characters. ";
+    specTf = " No $pec!al characters. ";
 }
 
-alert("Your password " + upTf + lowTf + numTf + "and " + specTf);
+alert("Your password will include " + upTf + lowTf + numTf + "and " + specTf);
 
 //password generator
 function pwGen(length) {
