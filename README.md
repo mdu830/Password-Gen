@@ -1,7 +1,12 @@
+![demo](/assets/images/demo.png)
+
+
 # Password-Generator
 
 This is a simple random password generator written in javascript.
-I do NOT recommend this for real security purposes as it is using math.random() and is extremely predictable. 
+I do NOT recommend this for real security purposes (yet) as it is using math.random() and is extremely predictable. 
+
+Link: https://mdu830.github.io/Password-Gen/
 
 ## Future updates
 
