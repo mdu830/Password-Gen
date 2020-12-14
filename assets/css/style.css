@@ -14,7 +14,7 @@ body {
 }
 
 .bord {
-    border: 3px solid rgb(175, 51, 51);
+    border: 3px solid gray;
     opacity: 0.85;
     border-radius: 5px;
 }
