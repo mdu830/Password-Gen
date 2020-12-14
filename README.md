@@ -12,6 +12,8 @@ Link: https://mdu830.github.io/Password-Gen/
 
 <li> 
   Replace math.random() with window.crypto.getRandomValues()
-   
+</li>
+<li>
   Refactor javascript code to be more compact
 </li>
+
