@@ -5,8 +5,8 @@ I do NOT recommend this for real security purposes as it is using math.random() 
 
 ## Future updates
 
-<li>
-  replace math.random() with window.crypto.getRandomValues()
-  
-  refactor javascript code to be more compact
-<li>
+<li> 
+  Replace math.random() with window.crypto.getRandomValues()
+   
+  Refactor javascript code to be more compact
+</li>
