@@ -26,37 +26,48 @@ var lowerCase = confirm("Do you want to use lowercase letters?");
 var numberQ = confirm("Do you want to include numbers in your password?");
 var specialQ = confirm("Do you want to include $pec!al characters in your password?");
 
-
 if(upperCase) {
-    alert("Your password will include uppercase letters");
+    upTf = "will have uppercase letters, ";
 } else {
-    alert("Your password will NOT include uppercase letters");
+    upTf = "will NOT have uppercase letters, ";
 }
-
-
 
 if(lowerCase) {
-    alert("Your password will include lowercase letters");
+    lowTf = "will have lowercase letters, ";
 } else {
-    alert("Your password will NOT include lowercase letters");
+    lowTf = "will NOT have lowercase letters, ";
 }
-
-
 
 if(numberQ) {
-    alert("Your password will include numbers");
+    numTf = "will have numbers, ";
 } else {
-    alert("Your password will NOT include numbers");
+    numTf = "will NOT have numbers, ";
 }
-
-
 
 if(specialQ) {
-    alert("Your password will include special characters");
+    specTf = "will have special characters. ";
 } else {
-    alert("Your password will NOT include special characters");
+    specTf = "will NOT have special characters. ";
 }
 
+alert("Your password " + upTf + lowTf + numTf + "and " + specTf);
+// if(lowerCase) {
+//     alert("Your password will include lowercase letters");
+// } else {
+//     alert("Your password will NOT include lowercase letters");
+// }
+
+// if(numberQ) {
+//     alert("Your password will include numbers");
+// } else {
+//     alert("Your password will NOT include numbers");
+// }
+
+// if(specialQ) {
+//     alert("Your password will include special characters");
+// } else {
+//     alert("Your password will NOT include special characters");
+// }
 
 //password generator
 function pwGen(length) {
