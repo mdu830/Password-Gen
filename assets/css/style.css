@@ -13,8 +13,19 @@ body {
     background-position: center;
 }
 
+.bord {
+    border: 2px darkgrey;
+    opacity: 0.85;
+    border-radius: 5px;
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
+    color: #131313;
+    text-shadow: -1px 1px 0 #41ba45,
+        1px 1px 0 #c63d2b,
+        1px -1px 0 #42afac,
+        -1px -1px 0 #c6c23f;
 }
 
 h2 {
