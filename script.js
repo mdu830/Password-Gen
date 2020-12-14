@@ -51,23 +51,6 @@ if(specialQ) {
 }
 
 alert("Your password " + upTf + lowTf + numTf + "and " + specTf);
-// if(lowerCase) {
-//     alert("Your password will include lowercase letters");
-// } else {
-//     alert("Your password will NOT include lowercase letters");
-// }
-
-// if(numberQ) {
-//     alert("Your password will include numbers");
-// } else {
-//     alert("Your password will NOT include numbers");
-// }
-
-// if(specialQ) {
-//     alert("Your password will include special characters");
-// } else {
-//     alert("Your password will NOT include special characters");
-// }
 
 //password generator
 function pwGen(length) {
