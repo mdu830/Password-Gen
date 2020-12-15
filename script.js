@@ -4,6 +4,7 @@
 var button = document.getElementById("go");
 button.innerHTML = "Generate Password";
 button.addEventListener ("click", function() {
+
  //prompts
     
     ask();
@@ -63,6 +64,7 @@ if(specialQ) {
 alert("Your password will include: " + upTf + lowTf + numTf + "and " + specTf);
 
 //password generator
+
 function pwGen(length) {
 
     var result           = '';
@@ -94,7 +96,7 @@ function pwGen(length) {
     return result;
 }
 
-console.log(pwGen(pwLength));
+//end result
 
 var result = document.getElementById("answer");
 result.innerHTML = (pwGen(pwLength));
