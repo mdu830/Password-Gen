@@ -96,7 +96,7 @@ function pwGen(length) {
     return result;
 }
 
-//end result
+//The end result
 
 var result = document.getElementById("answer");
 result.innerHTML = (pwGen(pwLength));
