@@ -8,7 +8,7 @@ button.addEventListener ("click", function() {
     
     ask();
     function ask(){
-        pwLength = prompt("Choose a password length of at least 8 characters and no more than 128 characters:");
+        pwLength = prompt("Pick a password length between 8-128 characters (only enter the NUMBER of characters you want):");
         
     
         if(pwLength >= 8 && pwLength <= 128) {
@@ -21,10 +21,10 @@ button.addEventListener ("click", function() {
     }
     pwLength = parseInt(pwLength);
 
-var upperCase = confirm("Do you want to include UPPERCASE letters in your password?");
-var lowerCase = confirm("Do you want to include lowercase letters in your password?");
-var numberQ = confirm("Do you want to include numbers in your password?");
-var specialQ = confirm("Do you want to include $pec!al characters in your password?");
+var upperCase = confirm("Do you want UPPERCASE letters in your password?");
+var lowerCase = confirm("Do you want lowercase letters in your password?");
+var numberQ = confirm("Do you want numbers in your password?");
+var specialQ = confirm("Do you want $pec!al characters in your password?");
 
 if(upperCase) {
     upTf = "UPPERCASE letters, ";
