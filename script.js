@@ -11,7 +11,7 @@ button.addEventListener ("click", function() {
 
     ask();
     function ask(){
-        pwLength = prompt("Pick a password length between 8-128 characters (only enter the NUMBER of characters you want):");
+        pwLength = prompt("Pick a password length between 8 - 128 characters (only enter the NUMBER of characters you want):");
         
         if(pwLength === null || pwLength === ""){
             return;
@@ -22,10 +22,11 @@ button.addEventListener ("click", function() {
             
             return;
         }
-        alert("that is not a valid password length please try again");
+        alert("that is not a valid password length. Make sure you are entering a NUMBER between 8 - 128");
         ask(pwLength);
     }
     if(pwLength === null || pwLength === ""){
+        alert("Nothing entered, please try again")
         return;
     }
     pwLength = parseInt(pwLength);
