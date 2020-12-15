@@ -5,15 +5,12 @@ var button = document.getElementById("go");
 button.innerHTML = "Generate Password";
 button.addEventListener ("click", function() {
  //prompts
-    var pwLength
-
-
-
+    
     ask();
     function ask(){
         pwLength = prompt("Pick a password length between 8 - 128 characters (only enter the NUMBER of characters):");
         
-        if(pwLength === null || pwLength === ""){
+        if(pwLength === null || pwLength === "") {
             return;
         }
     
@@ -25,7 +22,7 @@ button.addEventListener ("click", function() {
         alert("that is not a valid password length. Make sure you are entering a NUMBER between 8 - 128");
         ask(pwLength);
     }
-    if(pwLength === null || pwLength === ""){
+    if(pwLength === null || pwLength === "") {
         alert("Nothing entered, please try again")
         return;
     }
