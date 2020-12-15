@@ -55,9 +55,9 @@ if(numberQ) {
 }
 
 if(specialQ) {
-    specTf = " will have $pec!al characters. ";
+    specTf = "will have $pec!al characters. ";
 } else {
-    specTf = " No $pec!al characters. ";
+    specTf = "No $pec!al characters. ";
 }
 
 alert("Your password will include: " + upTf + lowTf + numTf + "and " + specTf);
