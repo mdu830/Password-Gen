@@ -22,8 +22,11 @@ button.addEventListener ("click", function() {
         alert("that is not a valid password length. Make sure you are entering a NUMBER between 8 - 128");
         ask(pwLength);
     }
-    if(pwLength === null || pwLength === "") {
-        alert("Nothing entered, please try again")
+    if(pwLength === "") {
+        alert("Nothing entered, please try again");
+        ask();
+    }
+    if(pwLength === null) {
         return;
     }
     pwLength = parseInt(pwLength);
