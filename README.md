@@ -17,6 +17,6 @@ Link: https://mdu830.github.io/Password-Gen/
   Refactor javascript code to be more compact
 </li>
 <li>
-  replace prompts with interactive elements on page
+  Replace prompts with interactive elements on page
 </li>
 
