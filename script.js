@@ -25,7 +25,8 @@ button.addEventListener ("click", function() {
     }
     if(pwLength === "") {
         alert("Nothing entered, please try again");
-        ask();
+        return;
+        
     }
     if(pwLength === null) {
         return;
